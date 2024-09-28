@@ -11,16 +11,12 @@ package com.mycompany.tp_mod_3;
 public class Prodi {
     private String namaProdi;
     
-    public Prodi(String namaProdi){
-        this.namaProdi = namaProdi;
+    public void setNama(String namaProd){
+        namaProdi = namaProd;
     }
     
-    public void setNamaProdi(String namaProdi){
-        this.namaProdi = namaProdi;
-    }
-    
-    public String getNamaProdi(){
-        return this.namaProdi;
+    public String getNama(){
+        return namaProdi;
     }
     
 }
