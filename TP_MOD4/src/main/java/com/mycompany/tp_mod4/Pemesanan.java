@@ -42,15 +42,4 @@ public class Pemesanan {
     public String getHari() {
         return hari;
     }
-    
-    
-    public void showData(){
-        System.out.println("Nama Dokter : " + dokter.getNama());
-        System.out.println("Spesialis : " + dokter.getSpesialis());
-        System.out.println("Nama Pasien : " + pasien.getNama()+ " (" + pasien.getUmur() + ") ");
-        System.out.println("Hari : " + getHari());
-        
-    }
-    
-    
 }

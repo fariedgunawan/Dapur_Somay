@@ -28,9 +28,14 @@ public class TP_MOD4 {
         pemesananList[4] = new Pemesanan(dt1, ps3, "Senin");
         
         for (int i = 0; i < pemesananList.length; i++) {
+            Pemesanan pemesanan = pemesananList[i];
+
             System.out.println("Pemesanan " + (i + 1) + ":");
-            pemesananList[i].showData();
-            System.out.println();
+            System.out.println("Nama Dokter : " + pemesanan.getDokter().getNama());
+            System.out.println("Spesialis : " + pemesanan.getDokter().getSpesialis());
+            System.out.println("Nama Pasien : " + pemesanan.getPasien().getNama() + " (" + pemesanan.getPasien().getUmur() + ")");
+            System.out.println("Hari : " + pemesanan.getHari());
+            System.out.println();  
         }
     }
 }
