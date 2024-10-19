@@ -32,8 +32,5 @@ public class Dokter {
 
     public String getSpesialis() {
         return spesialis;
-    }
-    
-    
-    
+    }  
 }
