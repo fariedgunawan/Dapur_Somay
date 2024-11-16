@@ -8,6 +8,7 @@ package com.mycompany.tp_mod9;
  *
  * @author farie
  */
+
 public class Circle extends Shape {
     protected double radius;
 

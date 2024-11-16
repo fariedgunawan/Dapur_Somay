@@ -15,7 +15,6 @@ public class TP_MOD9 {
     public static void displayShapeInfo(Shape shape) {
         System.out.println("Luas: " + shape.getArea());
         
-        
         if(shape instanceof HasVolume) {
             HasVolume volumeShape = (HasVolume) shape;
             System.out.println("Volume: " + volumeShape.getVolume());
@@ -25,10 +24,8 @@ public class TP_MOD9 {
     }
     
      public static void main(String[] args) {
-  
         ArrayList<Shape> shapes = new ArrayList<>();
         
-       
         shapes.add(new Rectangle(2.25, 4.0));  
         shapes.add(new Rectangle(4.0, 4.0));   
         shapes.add(new Circle(10.0));          
